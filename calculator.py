@@ -11,7 +11,7 @@ def calc_loop():
     print("5 - Power of")
     print("6 - Square Root")
     print("7 - Remained of Division")
-    operator_choice = input("--->  ")
+    operator_choice = input(">>>  ")
 
     if operator_choice not in ["1", "2", "3", "4", "5", "6" ,"7"]:
         print("Invalid selection!")
